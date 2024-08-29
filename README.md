@@ -116,3 +116,10 @@ Now recreate the Docker image with your api key:
    Goto Manage Jenkins →Plugins → Available Plugins →
 
    Install below plugins
+   1 Eclipse Temurin Installer (Install without restart)
+
+   2 SonarQube Scanner (Install without restart)
+
+   3 NodeJs Plugin (Install Without restart)
+
+   4 Email Extension Plugin
