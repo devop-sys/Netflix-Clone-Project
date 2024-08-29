@@ -5,6 +5,7 @@
 ## **Phase 1: Starting With Dev Part**
 **Step 1: Launch EC2 (Ubuntu 22.04):**
 1) Provision an EC2 instance on AWS with Ubuntu 22.04.
-2) Connect to the instance using SSH. 
+2) The instance type must be T2 large because we are going to integrate a lot of dependencies, such as SonarQube, Trivy, and many others.
+3) Connect to the instance using SSH. 
 
 **Step 2: Clone the Code:**
