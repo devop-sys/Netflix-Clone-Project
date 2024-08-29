@@ -41,4 +41,5 @@
 5. Create a new API key by clicking "Create" and accepting the terms and conditions.
 6. Provide the required basic details and click "Submit."
 7. You will receive your TMDB API key.
+
 Now recreate the Docker image with your api key:
