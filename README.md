@@ -87,4 +87,4 @@ Now recreate the Docker image with your api key:
 
 **Phase 3: CI/CD Configuration**
    
-i) Install Jenkins for Automation:
+1) **Install Jenkins for Automation:**
