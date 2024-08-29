@@ -146,4 +146,4 @@ We will install a sonar scanner in the tools.
 
 Create a Jenkins webhook
 
-   i) Configure CI/CD Pipeline in Jenkins:
+    i) Configure CI/CD Pipeline in Jenkins:
