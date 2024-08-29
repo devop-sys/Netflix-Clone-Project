@@ -37,6 +37,10 @@
 
    So stop docker server and remove it.
 
+       docker stop "image ID or container name"
+       docker rm "image ID or container name"
+       docker ps "image ID or container name"
+
    Now we don't have any server running.
  
 **Step 4: Obtain the API Key.**
