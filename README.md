@@ -109,4 +109,5 @@ Now recreate the Docker image with your api key:
           sudo systemctl start jenkins
           sudo systemctl enable jenkins
    ii) Access Jenkins in a web browser using the public IP of your EC2 instance.
-       **publicIp:8080**
+
+       publicIp:8080
