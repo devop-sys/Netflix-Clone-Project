@@ -34,3 +34,10 @@
    After running the Dockerfile, the page will appear blank without any movies because the API key wasn't integrated correctly.
 
 **Step 4: Obtain the API Key.**
+1. Open a web browser and navigate to TMDB (The Movie Database) website.
+2. Click on "Login" and create an account.
+3. Once logged in, go to your profile and select "Settings."
+4. Click on "API" from the left-side panel.
+5. Create a new API key by clicking "Create" and accepting the terms and conditions.
+6. Provide the required basic details and click "Submit."
+7. You will receive your TMDB API key.
