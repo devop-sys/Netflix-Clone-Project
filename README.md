@@ -34,7 +34,8 @@
    First check if your port is open or not.
 
    After running the Dockerfile, the page will appear blank without any movies because the API key wasn't integrated correctly.
-
+   So docker stop server and remove that server.
+ 
 **Step 4: Obtain the API Key.**
 1. Open a web browser and navigate to TMDB (The Movie Database) website.
 2. Click on "Login" and create an account.
@@ -45,3 +46,4 @@
 7. You will receive your TMDB API key.
 
 Now recreate the Docker image with your api key:
+     docker build --build-arg TMDB_V3_API_KEY=<your-api-key> -t netflix .
