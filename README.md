@@ -127,3 +127,5 @@ Now recreate the Docker image with your api key:
 ### **Set up Java and Node.js in the Global Tool Configuration.**
 
 Go to Manage Jenkins → Tools → Install JDK(17) and NodeJs(16)→ Click on Apply and Save
+
+### **SonarQube**
