@@ -16,5 +16,11 @@
         git clone https://github.com/devop-sys/Netflix-Clone-Project.git
 **Step3: Installing Docker and deploying the application in a container.**  
 1. Set up Docker on the EC2 instance:
+      
+     sudo apt-get update
+     sudo apt-get install docker.io -y
+     sudo usermod -aG docker $USER  # Replace with your system's username, e.g., 'ubuntu'
+     newgrp docker
+     sudo chmod 777 /var/run/docker.sock
 
   
