@@ -129,3 +129,11 @@ Now recreate the Docker image with your api key:
 Go to Manage Jenkins → Tools → Install JDK(17) and NodeJs(16)→ Click on Apply and Save
 
 ### **SonarQube**
+
+Create the token
+
+Go to Jenkins Dashboard → Manage Jenkins → Credentials → Add Secret Text. It should look like this
+
+After adding sonar token
+
+Click on Apply and Save
