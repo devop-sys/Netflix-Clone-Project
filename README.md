@@ -23,7 +23,7 @@
        newgrp docker
        sudo chmod 777 /var/run/docker.sock
        docker version
-3. Build and run your application using Docker containers:
+3. Leverage Docker containers to build and execute your application.
 
        docker build -t netflix .
        docker run -d --name netflix -p 8081:80 netflix:latest
