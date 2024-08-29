@@ -32,6 +32,7 @@
        docker stop <containerid>
        docker rmi -f netflix
    First check if your port is open or not.
+
    After running the Dockerfile, the page will appear blank without any movies because the API key wasn't integrated correctly.
 
 **Step 4: Obtain the API Key.**
