@@ -86,3 +86,4 @@ Now recreate the Docker image with your api key:
    ii) Configure SonarQube to analyze code for quality and security issues.
 
 **Phase 3: CI/CD Configuration**
+    i) Install Jenkins for Automation:
