@@ -2,7 +2,7 @@
 #
 
 # **Deploy Netflix Clone on Cloud using Jenkins - DevSecOps Project!**
-  **Phase 1: Starting With Dev Part**- How to run application locally
+###  **Phase 1: Starting With Dev Part**- How to run application locally
 
 **Step 1: Launch EC2 (Ubuntu 22.04):**
 1) Provision an EC2 instance on AWS with Ubuntu 22.04.
