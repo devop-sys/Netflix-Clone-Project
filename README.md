@@ -23,4 +23,10 @@
        newgrp docker
        sudo chmod 777 /var/run/docker.sock
 2. Build and run your application using Docker containers:
-  
+
+       docker build -t netflix .
+       docker run -d --name netflix -p 8081:80 netflix:latest
+
+       #to delete
+       docker stop <containerid>
+       docker rmi -f netflix
