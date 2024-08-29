@@ -77,3 +77,5 @@ Now recreate the Docker image with your api key:
         sudo apt-get install trivy
 
    to scan image using trivy
+
+        trivy image <imageid>
