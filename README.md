@@ -12,4 +12,4 @@
 **Step 2: Clone the Code:**
 1. Update all the packages and then clone the code.
 2. Clone your application's code repository onto the EC2 instance
-   git clone https://github.com/devop-sys/Netflix-Clone-Project.git
+git clone https://github.com/devop-sys/Netflix-Clone-Project.git
