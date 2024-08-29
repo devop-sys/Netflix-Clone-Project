@@ -80,6 +80,5 @@ Now recreate the Docker image with your api key:
 
         trivy image <imageid>
 2. **Set up and configure SonarQube integration.**
-
-       Integrate SonarQube with your CI/CD pipeline.
-       Configure SonarQube to analyze code for quality and security issues
+   Integrate SonarQube with your CI/CD pipeline.
+   Configure SonarQube to analyze code for quality and security issues
