@@ -64,3 +64,6 @@ Now recreate the Docker image with your api key:
     **SonarQube**
 
          docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
+   To access:
+
+   **publicIP:9000** (by default username & password is admin)
