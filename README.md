@@ -84,3 +84,4 @@ Now recreate the Docker image with your api key:
    i) Integrate SonarQube with your CI/CD pipeline.
 
    ii) Configure SonarQube to analyze code for quality and security issues.
+**Phase 3: CI/CD Configuration**
