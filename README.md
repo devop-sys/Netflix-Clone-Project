@@ -5,4 +5,4 @@
 ## **Phase 1: Starting With Dev Part**
 **Step 1: Launch EC2 (Ubuntu 22.04):**
 1) Provision an EC2 instance on AWS with Ubuntu 22.04.
-2)  2) Connect to the instance using SSH. 
+2) Connect to the instance using SSH. 
