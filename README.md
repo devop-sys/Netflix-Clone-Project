@@ -22,5 +22,5 @@
        sudo usermod -aG docker $USER  # Replace with your system's username, e.g., 'ubuntu'
        newgrp docker
        sudo chmod 777 /var/run/docker.sock
-
+2. Build and run your application using Docker containers:
   
