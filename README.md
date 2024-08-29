@@ -62,3 +62,5 @@ Now recreate the Docker image with your api key:
    Install SonarQube and Trivy on the EC2 instance to scan for vulnerabilities.
 
     **SonarQube**
+
+         docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
