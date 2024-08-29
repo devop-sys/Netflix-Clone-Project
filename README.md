@@ -79,3 +79,4 @@ Now recreate the Docker image with your api key:
    to scan image using trivy
 
         trivy image <imageid>
+2. **Set up and configure SonarQube integration.**
