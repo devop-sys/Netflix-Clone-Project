@@ -10,3 +10,5 @@
 3) Connect to the instance using SSH. 
 
 **Step 2: Clone the Code:**
+1. Update all the packages and then clone the code.
+2. Clone your application's code repository onto the EC2 instance:
