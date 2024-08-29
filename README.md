@@ -2,4 +2,4 @@
 #
 
 # **Deploy Netflix Clone on Cloud using Jenkins - DevSecOps Project!**
-### **Phase 1: Starting With Dev Part**
+## **Phase 1: Starting With Dev Part**
