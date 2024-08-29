@@ -124,3 +124,4 @@ Now recreate the Docker image with your api key:
    3 NodeJs Plugin (Install Without restart)
 
    4 Email Extension Plugin
+### **Set up Java and Node.js in the Global Tool Configuration.**
