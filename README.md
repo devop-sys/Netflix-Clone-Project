@@ -67,3 +67,5 @@ Now recreate the Docker image with your api key:
    To access:
 
    **publicIP:9000** (by default username & password is admin)
+
+   **To install Trivy:**
