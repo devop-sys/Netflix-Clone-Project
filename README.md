@@ -88,4 +88,5 @@ Now recreate the Docker image with your api key:
 **Phase 3: CI/CD Configuration**
    
 1) **Install Jenkins for Automation:**
+
    i) Install Jenkins on the EC2 instance to automate deployment: Install Java
