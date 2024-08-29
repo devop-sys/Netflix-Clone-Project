@@ -35,7 +35,7 @@
 
    After running the Dockerfile, the page will appear blank without any movies because the API key wasn't integrated correctly.
 
-   So docker stop server and remove that server.
+   So stop docker server and remove it.
  
 **Step 4: Obtain the API Key.**
 1. Open a web browser and navigate to TMDB (The Movie Database) website.
