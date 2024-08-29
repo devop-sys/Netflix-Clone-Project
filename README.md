@@ -148,6 +148,6 @@ Create a Jenkins webhook
 
  1) Configure CI/CD Pipeline in Jenkins:
 
-  i) Create a CI/CD pipeline in Jenkins to automate your application deployment.
+    i) Create a CI/CD pipeline in Jenkins to automate your application deployment.
 
  
