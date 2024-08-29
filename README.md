@@ -23,7 +23,7 @@
        newgrp docker
        sudo chmod 777 /var/run/docker.sock
        docker version
-3. Leverage Docker containers to build and execute your application.
+2. Leverage Docker containers to build and execute your application.
 
        docker build -t netflix .
        docker run -d --name netflix -p 8081:80 netflix:latest
@@ -32,3 +32,4 @@
        docker stop <containerid>
        docker rmi -f netflix
    After running the Dockerfile, the page will appear blank without any movies because the API key wasn't integrated correctly.
+**Step 4: Obtain the API Key.**
