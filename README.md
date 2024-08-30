@@ -607,5 +607,5 @@ Implement Notification Services:
 
   Set up email notifications in Jenkins or other notification mechanisms.
 
-# **Kubernetes**
+# **Phase6: Kubernetes**
 
