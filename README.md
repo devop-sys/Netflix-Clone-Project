@@ -463,5 +463,5 @@ Verify the Node Exporter's status:
     sudo systemctl status node_exporter
 
 You can access Node Exporter metrics in Prometheus.
-
+2) **Configure Prometheus Plugin Integration:**
        
