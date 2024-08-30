@@ -207,3 +207,13 @@ iii) Click on the "Available" tab and search for "OWASP Dependency-Check."
 iv) Check the checkbox for "OWASP Dependency-Check" and click on the "Install without restart" button.
 
 **Configure Dependency-Check Tool:**
+
+i) After installing the Dependency-Check plugin, you need to configure the tool.
+
+ii) Go to "Dashboard" → "Manage Jenkins" → "Global Tool Configuration."
+
+iii) Find the section for "OWASP Dependency-Check."
+
+iv) Add the tool's name, e.g., "DP-Check."
+
+v) Save your settings.
