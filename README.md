@@ -219,3 +219,11 @@ iv) Add the tool's name, e.g., "DP-Check."
 v) Save your settings.
 
 **Install Docker Tools and Docker Plugins:**
+
+i) Go to "Dashboard" in your Jenkins web interface.
+
+ii) Navigate to "Manage Jenkins" → "Manage Plugins."
+
+iii) Click on the "Available" tab and search for "Docker."
+
+iv) Check the following Docker-related plugins:
