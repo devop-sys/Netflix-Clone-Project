@@ -217,3 +217,5 @@ iii) Find the section for "OWASP Dependency-Check."
 iv) Add the tool's name, e.g., "DP-Check."
 
 v) Save your settings.
+
+**Install Docker Tools and Docker Plugins:**
