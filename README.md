@@ -227,3 +227,9 @@ ii) Navigate to "Manage Jenkins" → "Manage Plugins."
 iii) Click on the "Available" tab and search for "Docker."
 
 iv) Check the following Docker-related plugins:
+
+ 1) Docker
+ 2) Docker Commons
+ 3) Docker Pipeline
+ 4) Docker API
+ 5) docker-build-step
