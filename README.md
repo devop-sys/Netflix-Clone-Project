@@ -235,3 +235,4 @@ iv) Check the following Docker-related plugins:
  5) docker-build-step
 
 v) Click on the "Install without restart" button to install these plugins.
+**Add DockerHub Credentials:**
