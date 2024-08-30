@@ -233,3 +233,4 @@ iv) Check the following Docker-related plugins:
  3) Docker Pipeline
  4) Docker API
  5) docker-build-step
+v) Click on the "Install without restart" button to install these plugins.
