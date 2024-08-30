@@ -402,3 +402,13 @@ Enable and start Prometheus:
 
      sudo systemctl enable prometheus
      sudo systemctl start prometheus
+
+Verify Prometheus's status:
+
+     sudo systemctl status prometheus
+
+You can access Prometheus in a web browser using your server's IP and port 9090:
+
+   http://<your-server-ip>:9090
+
+
