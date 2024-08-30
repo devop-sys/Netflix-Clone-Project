@@ -622,15 +622,15 @@ To start monitoring your Kubernetes cluster, you'll set up the Prometheus Node E
 
 1) Add the Prometheus Community Helm repository:
 
-    helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+         helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 
 2) Create a Kubernetes namespace for the Node Exporter:
 
-      kubectl create namespace prometheus-node-exporter
+         kubectl create namespace prometheus-node-exporter
 
 3) Install the Node Exporter using Helm:
 
-      helm install prometheus-node-exporter prometheus-community/prometheus-node-exporter --namespace prometheus-node-exporter
+         helm install prometheus-node-exporter prometheus-community/prometheus-node-exporter --namespace prometheus-node-exporter
 
 Add a Job to Scrape Metrics on nodeip:9001/metrics in prometheus.yml:
 
