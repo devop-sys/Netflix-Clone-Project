@@ -620,10 +620,35 @@ Prometheus is a highly effective tool for monitoring and alerting, and you’ll 
 
 To start monitoring your Kubernetes cluster, you'll set up the Prometheus Node Exporter, which gathers system-level metrics from your cluster nodes. Follow these steps to install the Node Exporter using Helm.
 
+1) Add the Prometheus Community Helm repository:
 
+    helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 
+2) Create a Kubernetes namespace for the Node Exporter:
 
+      kubectl create namespace prometheus-node-exporter
 
+3) Install the Node Exporter using Helm:
+
+      helm install prometheus-node-exporter prometheus-community/prometheus-node-exporter --namespace prometheus-node-exporter
+
+Add a Job to Scrape Metrics on nodeip:9001/metrics in prometheus.yml:
+
+Update your Prometheus configuration (prometheus.yml) to add a new job for scraping metrics from nodeip:9001/metrics. You can do this by adding the following configuration to your prometheus.yml file:
+
+```
+  - job_name: 'Netflix'
+    metrics_path: '/metrics'
+    static_configs:
+      - targets: ['node1Ip:9100']
+```
+Replace 'your-job-name' with a descriptive name for your job. The static_configs section specifies the targets to scrape metrics from, and in this case, it's set to nodeip:9001.
+
+Don't forget to reload or restart Prometheus to apply these changes to your configuration.
+
+To deploy an application with ArgoCD, you can follow these steps, which I'll outline in Markdown format:
+
+   
 
 
 
