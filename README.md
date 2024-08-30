@@ -239,9 +239,9 @@ v) Click on the "Install without restart" button to install these plugins.
 **Add DockerHub Credentials:**
 
 i) To securely handle DockerHub credentials in your Jenkins pipeline, follow these steps:
- 1) Go to "Dashboard" → "Manage Jenkins" → "Manage Credentials."
- 2) Click on "System" and then "Global credentials (unrestricted)."
- 3) Click on "Add Credentials" on the left side.
- 4) Choose "Secret text" as the kind of credentials.
- 5) Enter your DockerHub credentials (Username and Password) and give the credentials an ID (e.g., "docker").
- 6) Click "OK" to save your DockerHub credentials.
+   1) Go to "Dashboard" → "Manage Jenkins" → "Manage Credentials."
+   2) Click on "System" and then "Global credentials (unrestricted)."
+   3) Click on "Add Credentials" on the left side.
+   4) Choose "Secret text" as the kind of credentials.
+   5) Enter your DockerHub credentials (Username and Password) and give the credentials an ID (e.g., "docker").
+   6) Click "OK" to save your DockerHub credentials.
