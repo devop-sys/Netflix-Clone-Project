@@ -614,6 +614,14 @@ Implement Notification Services:
 In this step, you'll configure a Kubernetes cluster along with node groups, creating a scalable environment for deploying and managing your applications.
 ## **Track Kubernetes using Prometheus**
 
+Prometheus is a highly effective tool for monitoring and alerting, and you’ll utilize it to oversee your Kubernetes cluster. Furthermore, you'll deploy the node exporter via Helm to capture metrics from your cluster nodes.
+
+
+
+
+
+
+
 
 
 
