@@ -335,3 +335,7 @@ sudo systemctl restart jenkins
 **Phase 4: Monitoring**
 
 **Install Prometheus and Grafana:**
+
+Set up Prometheus and Grafana to monitor your application.
+
+**Installing Prometheus:**
