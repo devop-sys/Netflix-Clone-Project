@@ -353,3 +353,10 @@ Extract Prometheus files, move them, and create directories:
       sudo mv prometheus promtool /usr/local/bin/
       sudo mv consoles/ console_libraries/ /etc/prometheus/
       sudo mv prometheus.yml /etc/prometheus/prometheus.yml
+Set ownership for directories:
+
+    sudo chown -R prometheus:prometheus /etc/prometheus/ /data/
+
+Create a systemd unit configuration file for Prometheus:
+
+      sudo nano /etc/systemd/system/prometheus.service
