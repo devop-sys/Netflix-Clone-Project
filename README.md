@@ -245,3 +245,5 @@ i) To securely handle DockerHub credentials in your Jenkins pipeline, follow the
    4) Choose "Secret text" as the kind of credentials.
    5) Enter your DockerHub credentials (Username and Password) and give the credentials an ID (e.g., "docker").
    6) Click "OK" to save your DockerHub credentials.
+
+Now, you have installed the Dependency-Check plugin, configured the tool, and added Docker-related plugins along with your DockerHub credentials in Jenkins. You can now proceed with configuring your Jenkins pipeline to include these tools and credentials in your CI/CD process.
