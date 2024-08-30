@@ -341,3 +341,6 @@ Set up Prometheus and Grafana to monitor your application.
 **Installing Prometheus:**
 
 First, create a dedicated Linux user for Prometheus and download Prometheus:
+
+  sudo useradd --system --no-create-home --shell /bin/false prometheus
+  wget https://github.com/prometheus/prometheus/releases/download/v2.47.1/prometheus-2.47.1.linux-amd64.tar.gz
