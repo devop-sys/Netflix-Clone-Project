@@ -616,6 +616,7 @@ In this step, you'll configure a Kubernetes cluster along with node groups, crea
 
 Prometheus is a highly effective tool for monitoring and alerting, and you’ll utilize it to oversee your Kubernetes cluster. Furthermore, you'll deploy the node exporter via Helm to capture metrics from your cluster nodes.
 
+## **Install Node Exporter using Helm**
 
 
 
