@@ -516,13 +516,13 @@ First, ensure that all necessary dependencies are installed:
 
 Add the GPG key for Grafana:
 
-   wget -q -O - https://packages.grafana.com/gpg.key | sudo apt-key add -
+      wget -q -O - https://packages.grafana.com/gpg.key | sudo apt-key add -
 
 Step 3: Add Grafana Repository:
 
 Add the repository for Grafana stable releases:
 
-   echo "deb https://packages.grafana.com/oss/deb stable main" | sudo tee -a /etc/apt/sources.list.d/grafana.list
+      echo "deb https://packages.grafana.com/oss/deb stable main" | sudo tee -a /etc/apt/sources.list.d/grafana.list
 
 **Step 4: Update and Install Grafana:**
 
