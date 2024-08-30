@@ -609,3 +609,4 @@ Implement Notification Services:
 
 # **Phase6: Kubernetes**
 
+## **Set up a Kubernetes cluster that includes node groups.**
