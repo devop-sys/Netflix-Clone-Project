@@ -197,4 +197,8 @@ pipeline {
 **Install Dependency-Check and Docker Tools in Jenkins**
 
 **Install Dependency-Check Plugin:**
- 
+
+i) Go to "Dashboard" in your Jenkins web interface.
+ii) Navigate to "Manage Jenkins" → "Manage Plugins."
+iii) Click on the "Available" tab and search for "OWASP Dependency-Check."
+iv) Check the checkbox for "OWASP Dependency-Check" and click on the "Install without restart" button.
