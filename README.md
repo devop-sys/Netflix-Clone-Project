@@ -409,6 +409,6 @@ Verify Prometheus's status:
 
 You can access Prometheus in a web browser using your server's IP and port 9090:
 
-   http://<your-server-ip>:9090
+       http://<your-server-ip>:9090
 
 
