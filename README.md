@@ -360,3 +360,45 @@ Set ownership for directories:
 Create a systemd unit configuration file for Prometheus:
 
       sudo nano /etc/systemd/system/prometheus.service
+Add the following content to the prometheus.service file:
+
+[Unit]
+Description=Prometheus
+Wants=network-online.target
+After=network-online.target
+
+StartLimitIntervalSec=500
+StartLimitBurst=5
+
+```
+[Service]
+User=prometheus
+Group=prometheus
+Type=simple
+Restart=on-failure
+RestartSec=5s
+ExecStart=/usr/local/bin/prometheus \
+  --config.file=/etc/prometheus/prometheus.yml \
+  --storage.tsdb.path=/data \
+  --web.console.templates=/etc/prometheus/consoles \
+  --web.console.libraries=/etc/prometheus/console_libraries \
+  --web.listen-address=0.0.0.0:9090 \
+  --web.enable-lifecycle
+
+[Install]
+WantedBy=multi-user.target
+```
+
+Here's a brief explanation of the key parts in this prometheus.service file:
+  1) User and Group specify the Linux user and group under which Prometheus will run.
+
+  2) ExecStart is where you specify the Prometheus binary path, the location of the configuration file (prometheus.yml), the storage directory, and other settings.
+
+  3) web.listen-address configures Prometheus to listen on all network interfaces on port 9090.
+
+  4) web.enable-lifecycle allows for management of Prometheus through API calls.
+
+Enable and start Prometheus:
+
+     sudo systemctl enable prometheus
+     sudo systemctl start prometheus
