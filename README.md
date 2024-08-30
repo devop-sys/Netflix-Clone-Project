@@ -518,7 +518,7 @@ Add the GPG key for Grafana:
 
       wget -q -O - https://packages.grafana.com/gpg.key | sudo apt-key add -
 
-Step 3: Add Grafana Repository:
+**Step 3: Add Grafana Repository:**
 
 Add the repository for Grafana stable releases:
 
