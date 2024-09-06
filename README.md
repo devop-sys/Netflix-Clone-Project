@@ -113,7 +113,7 @@ Now recreate the Docker image with your api key:
    **publicIp:8080**
 2) **Install Necessary Plugins in Jenkins:**
 
-   Goto Manage Jenkins →Plugins → Available Plugins →
+   Go to Manage Jenkins →Plugins → Available Plugins →
 
    Install below plugins
 
